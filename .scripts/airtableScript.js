@@ -6,9 +6,8 @@ const xml2js = require("xml2js");
 
 // Constants and configuration
 
-const STUDENT_GITHUB = argv[6] || "aya-alsakkaf";
-const STUDENT_REPO =
-  argv[7] || "https://github.com/aya-alsakkaf/testing-js-functions";
+const STUDENT_GITHUB = argv[2];
+const STUDENT_REPO = argv[3];
 const JEST_REPORT_PATH = "./junit.xml";
 
 // Airtable API functions
